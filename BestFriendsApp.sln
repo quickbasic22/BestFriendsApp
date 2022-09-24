@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestFriendsApp.Android", "BestFriendsApp\BestFriendsApp.Android\BestFriendsApp.Android.csproj", "{33AE00AF-D92E-4A6F-BA31-C09339684337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestFriendsApp", "BestFriendsApp\BestFriendsApp\BestFriendsApp.csproj", "{C019F3B1-D9F2-4040-98F2-1550A817D6D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33AE00AF-D92E-4A6F-BA31-C09339684337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AE00AF-D92E-4A6F-BA31-C09339684337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AE00AF-D92E-4A6F-BA31-C09339684337}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33AE00AF-D92E-4A6F-BA31-C09339684337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AE00AF-D92E-4A6F-BA31-C09339684337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AE00AF-D92E-4A6F-BA31-C09339684337}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C019F3B1-D9F2-4040-98F2-1550A817D6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C019F3B1-D9F2-4040-98F2-1550A817D6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C019F3B1-D9F2-4040-98F2-1550A817D6D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C019F3B1-D9F2-4040-98F2-1550A817D6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C019F3B1-D9F2-4040-98F2-1550A817D6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C019F3B1-D9F2-4040-98F2-1550A817D6D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B59B76ED-FADE-4ACA-94D3-E363498B6FF4}
+	EndGlobalSection
+EndGlobal
