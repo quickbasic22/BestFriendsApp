@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BestFriendsApp.MainPage">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:BestFriendsApp.ViewModels" 
+             x:DataType="viewmodels:AddContactViewModel"
+             x:Class="BestFriendsApp.MainPage"
+             Title="Best Friends App">
 
   <StackLayout Padding="10" Spacing="10">
     <Label Text="Name"/>
@@ -21,7 +24,9 @@
     <Button Text="Save Contact" Command="{Binding SaveContactCommand}"/>
     
     <ActivityIndicator IsRunning="{Binding IsBusy}"/>
-    
-  </StackLayout>
+
+        <Button Text="Open Page1.XAML" Clicked="Button_Clicked" />
+
+    </StackLayout>
 
 </ContentPage>

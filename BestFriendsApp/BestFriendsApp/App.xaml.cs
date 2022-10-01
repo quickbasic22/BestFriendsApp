@@ -11,8 +11,8 @@ namespace BestFriendsApp
         public App()
         {
             InitializeComponent();
-
-            MainPage = new BestFriendsApp.MainPage();
+            
+            MainPage = new BestFriendsApp.Page1();
         }
 
         protected override void OnStart()
